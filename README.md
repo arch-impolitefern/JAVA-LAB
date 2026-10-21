@@ -24,8 +24,8 @@ java_projects/
 ├── .gitignore                                         # Git ignore rules for build artifacts & runtime logs
 │
 ├── Exp_01_Student_Registration_Form/                  # Exp 1: Desktop Student Registration Form (Swing)
-│   ├── Gaurav.java                                    # Swing GUI, validation, event handling & JDBC insert
-│   ├── Gaurav.class                                   # Compiled Java bytecode
+│   ├── StudentRegistration.java                                    # Swing GUI, validation, event handling & JDBC insert
+│   ├── StudentRegistration.class                                   # Compiled Java bytecode
 │   └── lib/mysql-connector-j-26.7.0.jar               # MySQL Connector/J driver for the JDBC insert
 │
 ├── Exp_02_Calculator/                                 # Exp 2: Swing Calculator with MVC Pattern
@@ -102,11 +102,11 @@ java_projects/
 * **Run**:
   ```bash
   cd Exp_01_Student_Registration_Form
-  javac -cp "lib/mysql-connector-j-26.7.0.jar" Gaurav.java
-  java -cp ".;lib/mysql-connector-j-26.7.0.jar" Gaurav
+  javac -cp "lib/mysql-connector-j-26.7.0.jar" StudentRegistration.java
+  java -cp ".;lib/mysql-connector-j-26.7.0.jar" Dev
   ```
   > Requires a MySQL database named `college` with a `student` table
-  > (`name`, `roll_number`, `branch`, `gender`) and valid credentials in `Gaurav.java`.
+  > (`name`, `roll_number`, `branch`, `gender`) and valid credentials in `Dev.java`.
 
 ---
 
