@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Advanced Java Laboratory & Capstone Project Repository
 
 [![Java](https://img.shields.io/badge/Java-17%2B-ED8B00?logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
@@ -345,3 +346,6 @@ practical/learning workspace.
 
 For production projects, it is generally better to use a build system such
 as Maven or Gradle and avoid committing generated build artifacts.
+=======
+# JAVA-LAB
+>>>>>>> 17102daffadc9f944c562b9bb0ef80d8bf8c9cbb
